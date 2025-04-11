@@ -27,13 +27,19 @@ if(currentTime < 12){
     redirectUrl = "#breakfast";
 }
 
-else if(currentTime<18){
-    alertText = "Good Morning! Would you like to see some lunch recipes?"
+else if(currentTime<16){
+    alertText = "Good Afternoon! Would you like to see some lunch recipes?"
     redirectUrl = "#lunch";
 }
 
+else if(curentTime<20){
+    alertText = "Good Evening! Would you like to see some snack recipes?"
+    redirectUrl = "#snacks";
+}
+    
+
 else{
-    alertText = "Good Morning! Would you like to see some dinner recipes?"
+    alertText = "Good Evening! Would you like to see some dinner recipes?"
     redirectUrl = "#dinner";
 }
 
